@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default class ingredients extends React.Component {
+export default class Ingredients extends React.Component {
   render() {
     return (
       <p className="ingredients">
