@@ -2,15 +2,16 @@ import React from 'react';
 
 export default class NutritionalInfo extends React.Component {
   render() {
+    const nutritionalInfo = this.props.nutritionalInfo;
     return (
       <li className="nutritional-info">
-        <span> {this.props.total-fat} </span>
-        <span> {this.props.cholesterol} </span>
-        <span> {this.props.sodium} </span>
-        <span> {this.props.total-carbs} </span>
-        <span> {this.props.protein} </span>
-        <span> {this.props.calcium} </span>
-        <span> {this.props.potassium} </span>
+        <span> {nutritionalInfo.total-fat} </span>
+        <span> {nutritionalInfo.cholesterol} </span>
+        <span> {nutritionalInfo.sodium} </span>
+        <span> {nutritionalInfo.total-carbs} </span>
+        <span> {nutritionalInfo.protein} </span>
+        <span> {nutritionalInfo.calcium} </span>
+        <span> {nutritionalInfo.potassium} </span>
       </li>
     );
   }

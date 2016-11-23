@@ -4,6 +4,7 @@ const flavors = [
   {
     'id': 'traditional',
     'name': 'Traditional',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'available',
     'price': 'R$ 5',
     'img': [
@@ -31,6 +32,7 @@ const flavors = [
   {
     'id': 'brigadeiro',
     'name': 'Brigadeiro',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'available',
     'price': 'R$ 6',
     'img': [
@@ -59,6 +61,7 @@ const flavors = [
   {
     'id': 'leite-ninho',
     'name': 'Leite Ninho',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'unavailable',
     'price': 'R$ 6',
     'img': [
@@ -86,6 +89,7 @@ const flavors = [
   {
     'id': 'oreo',
     'name': 'Oreo'
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'price': 'R$ 6',
     'status': 'coming-soon',
     'img': [
@@ -114,6 +118,7 @@ const flavors = [
   {
     'id': 'nutella',
     'name': 'Nutella',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'available',
     'price': 'R$ 6',
     'img': [
@@ -142,6 +147,7 @@ const flavors = [
   {
     'id': 'beijinho',
     'name': 'Beijinho',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'available',
     'price': 'R$ 6',
     'img': [
@@ -172,6 +178,7 @@ const flavors = [
   {
     'id': 'doce-de-leite',
     'name': 'Doce de Leite',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'available',
     'price': 'R$ 6',
     'img': [
@@ -200,6 +207,7 @@ const flavors = [
   {
     'id': 'blondie-macadamia',
     'name': 'Blondie de Macadâmia',
+    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
     'status': 'available',
     'price': 'R$ 6',
     'img': [
