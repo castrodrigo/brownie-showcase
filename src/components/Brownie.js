@@ -15,20 +15,18 @@ export default class Brownie extends React.Component {
     }
     return (
       <div className="brownie-full">
-        <AthletesMenu/>
+        <Menu/>
         <div className="brownie">
           <header />
           <div className="picture-container">
-            <img src={`/img/${brownie.img.default}`}/>
+            <img src={`/img/${brownie.image}`}/>
             <h2 className="name">{brownie.name}</h2>
             <h4 className="price">{brownie.price}</h4>
           </div>
           <section className="description">
             {brownie.description}
           </section>
-          <section className="ingredients">
-            <Ingredients ingredients={brownie.ingredients}/>
-          </section>
+
           <section className="nutritional-info">
             <NutritionalInfo nutritionalInfo={brownie.nutritionalInfo}/>
           </section>

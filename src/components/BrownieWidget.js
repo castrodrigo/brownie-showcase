@@ -6,7 +6,7 @@ export default class BrownieWidget extends React.Component {
     return (
       <Link to={`/brownie/${this.props.id}`}>
         <div className="brownie-widget">
-          <img src={`img/${this.props.img.default}`}/>
+          <img src={`img/${this.props.image}`}/>
           <h2 className="name">{this.props.name}</h2>
           <span className="price">{this.props.price}</span>
         </div>

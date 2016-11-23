@@ -5,7 +5,7 @@ export default class Ingredients extends React.Component {
     return (
       <p className="ingredients">
         {this.props.ingredients.map((ingredient, index) => (
-          {ingredient},
+          {ingredient}
         ))}
       </p>
     );

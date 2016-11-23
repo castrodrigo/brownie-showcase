@@ -4,13 +4,14 @@ const flavors = [
   {
     'id': 'traditional',
     'name': 'Traditional',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'available',
     'price': 'R$ 5',
+    'image': 'traditional.jpg',
     'img': [
-      'default': 'traditional.jpg',
-      'cover': 'traditional-cover.jpg'
-    ]
+      {'default': 'traditional.jpg'},
+      {'cover': 'traditional-cover.jpg'}
+    ],
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -19,11 +20,11 @@ const flavors = [
       'butter with salt',
       'chocolate powder'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g', 'DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g', 'DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -32,13 +33,10 @@ const flavors = [
   {
     'id': 'brigadeiro',
     'name': 'Brigadeiro',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'available',
     'price': 'R$ 6',
-    'img': [
-      'default': 'brigadeiro.jpg',
-      'cover': 'brigadeiro-cover.jpg'
-    ]
+    'image': 'brigadeiro.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -48,11 +46,11 @@ const flavors = [
       'chocolate powder',
       'chocolate sprinkles'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -61,13 +59,10 @@ const flavors = [
   {
     'id': 'leite-ninho',
     'name': 'Leite Ninho',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'unavailable',
     'price': 'R$ 6',
-    'img': [
-      'default': 'leite-ninho.jpg',
-      'cover': 'leite-ninho-cover.jpg'
-    ]
+    'image': 'leite-ninho.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -76,11 +71,11 @@ const flavors = [
       'butter with salt',
       '"ninho" milk powder'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -88,14 +83,11 @@ const flavors = [
   },
   {
     'id': 'oreo',
-    'name': 'Oreo'
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'name': 'Oreo',
+    'description': 'Lorem ipsum dolor sit amet.',
     'price': 'R$ 6',
     'status': 'coming-soon',
-    'img': [
-      'default': 'oreo.jpg',
-      'cover': 'oreo-cover.jpg'
-    ]
+    'image': 'oreo.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -105,11 +97,11 @@ const flavors = [
       'chocolate powder',
       'oreo cookies'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -118,13 +110,10 @@ const flavors = [
   {
     'id': 'nutella',
     'name': 'Nutella',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'available',
     'price': 'R$ 6',
-    'img': [
-      'default': 'nutella.jpg',
-      'cover': 'nutella-cover.jpg'
-    ]
+    'image': 'nutella.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -134,11 +123,11 @@ const flavors = [
       'chocolate powder',
       'nutella'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -147,13 +136,10 @@ const flavors = [
   {
     'id': 'beijinho',
     'name': 'Beijinho',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'available',
     'price': 'R$ 6',
-    'img': [
-      'default': 'oreo.jpg',
-      'cover': 'oreo-cover.jpg'
-    ]
+    'image': 'beijinho.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -165,11 +151,11 @@ const flavors = [
       'gillyflower',
       'count milk'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -178,13 +164,10 @@ const flavors = [
   {
     'id': 'doce-de-leite',
     'name': 'Doce de Leite',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'available',
     'price': 'R$ 6',
-    'img': [
-      'default': 'doce-de-leite.jpg',
-      'cover': 'doce-de-leite-cover.jpg'
-    ]
+    'image': 'doce-de-leite.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -194,11 +177,11 @@ const flavors = [
       'count milk',
       'milk caramel sauce'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
@@ -207,13 +190,10 @@ const flavors = [
   {
     'id': 'blondie-macadamia',
     'name': 'Blondie de Macadâmia',
-    'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque porttitor nisi metus, sit amet imperdiet nulla maximus id. Aenean ultrices leo a dolor elementum dictum.',
+    'description': 'Lorem ipsum dolor sit amet.',
     'status': 'available',
     'price': 'R$ 6',
-    'img': [
-      'default': 'blondie-macadamia.jpg',
-      'cover': 'blondie-macadamia-cover.jpg'
-    ]
+    'image': 'blondie-macadamia.jpg',
     'ingredients': [
       'sugar',
       'milk chocolate',
@@ -223,11 +203,11 @@ const flavors = [
       'count milk',
       'macadamia'
     ],
-    'nutritional-info': [
-      {'total-fat':'7g','DV':'11%'},
+    'nutritionalInfo': [
+      {'totalFat':'7g','DV':'11%'},
       {'cholesterol':'18mg','DV':'6%'},
       {'sodium':'82mg','DV':'3%'},
-      {'total-carbs':'12g','DV':'4%'},
+      {'totalCabs':'12g','DV':'4%'},
       {'protein':'1.5g'},
       {'calcium':'13.7g'},
       {'potassium':'42.2g'}
